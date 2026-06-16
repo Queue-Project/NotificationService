@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QNotificationService.API", "QNotificationService.API", "{95E215A1-0F55-4C92-B1BF-0BFC42EC074C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QNotificationService.Application", "QNotificationService.Application", "{9FD98664-ED3E-4D6F-9D29-D460745100C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QNotificationService.Contracts", "QNotificationService.Contracts", "{550EF99F-60E5-4C9E-ADB2-E62E561F6551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNotificationService.API", "QNotificationService.API\QNotificationService.API.csproj", "{62B138EC-BD28-4368-A25B-E27A3CD70B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNotificationService.Application", "QNotificationService.Application\QNotificationService.Application.csproj", "{39BB0F63-10B5-4288-9340-5EEC3ACAC588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNotificationService.Contracts", "QNotificationService.Contracts\QNotificationService.Contracts.csproj", "{A074F6FA-1574-4977-9DA1-9380B63CC4DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62B138EC-BD28-4368-A25B-E27A3CD70B0A} = {95E215A1-0F55-4C92-B1BF-0BFC42EC074C}
+		{39BB0F63-10B5-4288-9340-5EEC3ACAC588} = {9FD98664-ED3E-4D6F-9D29-D460745100C8}
+		{A074F6FA-1574-4977-9DA1-9380B63CC4DF} = {550EF99F-60E5-4C9E-ADB2-E62E561F6551}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B138EC-BD28-4368-A25B-E27A3CD70B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B138EC-BD28-4368-A25B-E27A3CD70B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B138EC-BD28-4368-A25B-E27A3CD70B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B138EC-BD28-4368-A25B-E27A3CD70B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BB0F63-10B5-4288-9340-5EEC3ACAC588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BB0F63-10B5-4288-9340-5EEC3ACAC588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BB0F63-10B5-4288-9340-5EEC3ACAC588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BB0F63-10B5-4288-9340-5EEC3ACAC588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

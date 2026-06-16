@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>ff09b147-426e-4fff-a686-a4e44740b928</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\QNotificationService.Application\QNotificationService.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MailKit" Version="4.16.0" />
+    </ItemGroup>
+
+</Project>
