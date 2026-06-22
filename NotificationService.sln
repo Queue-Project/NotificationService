@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNotificationService.Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNotificationService.Contracts", "QNotificationService.Contracts\QNotificationService.Contracts.csproj", "{A074F6FA-1574-4977-9DA1-9380B63CC4DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QNotifictionService.UnitTest", "QNotifictionService.UnitTest", "{A0E79818-A264-4861-ABDF-CE9512041E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNotificationService.UnitTest", "QNotificationService.UnitTest\QNotificationService.UnitTest.csproj", "{26484386-BE28-4A30-B274-EAE2F7C4D831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,7 @@ Global
 		{62B138EC-BD28-4368-A25B-E27A3CD70B0A} = {95E215A1-0F55-4C92-B1BF-0BFC42EC074C}
 		{39BB0F63-10B5-4288-9340-5EEC3ACAC588} = {9FD98664-ED3E-4D6F-9D29-D460745100C8}
 		{A074F6FA-1574-4977-9DA1-9380B63CC4DF} = {550EF99F-60E5-4C9E-ADB2-E62E561F6551}
+		{26484386-BE28-4A30-B274-EAE2F7C4D831} = {A0E79818-A264-4861-ABDF-CE9512041E91}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{62B138EC-BD28-4368-A25B-E27A3CD70B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +40,9 @@ Global
 		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A074F6FA-1574-4977-9DA1-9380B63CC4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26484386-BE28-4A30-B274-EAE2F7C4D831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26484386-BE28-4A30-B274-EAE2F7C4D831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26484386-BE28-4A30-B274-EAE2F7C4D831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26484386-BE28-4A30-B274-EAE2F7C4D831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
