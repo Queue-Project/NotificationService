@@ -10,7 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<MailgunSettings>(
     builder.Configuration.GetSection("Mailgun"));
-builder.Services.AddScoped<IEmailSender, MailgunEmailSender>();
+
+builder.Services.AddHttpClient<IEmailSender, MailgunEmailSender>();
 
 builder.Services.AddScoped<INotificationService, NotificationService>();
 
