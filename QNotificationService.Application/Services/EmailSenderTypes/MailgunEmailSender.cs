@@ -10,10 +10,10 @@ public class MailgunEmailSender: IEmailSender
     private readonly MailgunSettings _settings;
     private readonly HttpClient _httpClient;
 
-    public MailgunEmailSender(IOptions<MailgunSettings> settings)
+    public MailgunEmailSender(IOptions<MailgunSettings> settings, HttpClient httpClient)
     {
         _settings = settings.Value;
-        _httpClient = new HttpClient();
+        _httpClient = httpClient;
 
         var byteArray = Encoding.ASCII.GetBytes($"api:{_settings.ApiKey}");
         _httpClient.DefaultRequestHeaders.Authorization =
