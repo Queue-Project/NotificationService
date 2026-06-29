@@ -31,6 +31,7 @@ public class MailgunEmailSenderTests
     public async Task Send_Email_When_Commands_Valid()
     {
         // Arrange
+        
         var to = "test@gmail.com";
         var subject = "Test Subject";
         var body = "Test Body Content";
